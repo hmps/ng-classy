@@ -1,0 +1,10 @@
+{
+  "name": "eaze-angular",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "browserify -e src/app.js -t [babelify --stage 0] > out.js"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2"
+  }
+}
