@@ -1,10 +1,24 @@
 {
-  "name": "eaze-angular",
-  "version": "0.0.0",
+  "name": "ng-classy",
+  "version": "0.0.1",
   "scripts": {
-    "build": "browserify -e src/app.js -t [babelify --stage 0] > out.js"
+    "test": "karma start",
+    "test-watch": "karma start --single-run=false"
   },
+  "main": "lib/index.js",
   "devDependencies": {
-    "babelify": "^6.1.2"
+    "angular-mocks": "^1.4.x",
+    "babelify": "^6.1.2",
+    "chai": "^3.0.0",
+    "karma": "^0.12.36",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-browserify": "^4.2.1",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-ui-router": "0.2.15"
   }
 }
