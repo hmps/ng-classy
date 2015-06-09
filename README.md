@@ -155,4 +155,6 @@ class MyComponent {
 @classy.State('myState', {
   url: 'url/:someParam'
 })
+class SomeComponent {
+}
 ```
