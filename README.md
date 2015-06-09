@@ -36,7 +36,7 @@ export default angular.module('myComponent', [
   })
   // Finally, implement a component.
   // Much boilerplate.
-  .directive('my-component', () => {
+  .directive('myComponent', () => {
     return {
       restrict: 'E',
       scope: {},
