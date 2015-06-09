@@ -113,7 +113,6 @@ classy.app;
  */
 @classy.Service()
 class MyService {
-  //
 }
 
 /*
@@ -131,9 +130,10 @@ class MyService {
  *  }
  */
 @classy.Component({
-   bind: {
-     color: '='
-   }
+  bind: {
+   color: '='
+  },
+  template: 'some template with a binding to color {{vm.color}}' 
  })
 class MyComponent {
 }
