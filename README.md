@@ -92,7 +92,7 @@ export class MyComponent {
 }
 ```
 
-Goodbye, boilterplate. Hello, ease.
+Goodbye, boilerplate. Hello, ease.
 
 
 ### API
