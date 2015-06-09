@@ -34,7 +34,7 @@ export default angular.module('myComponent', [
       controller: ($stateParams, $scope) => $scope.$stateParams = $stateParams
     })
   })
-  // Finally, implement a component.
+  // Declare a component.
   // Much boilerplate.
   .directive('myComponent', () => {
     return {
