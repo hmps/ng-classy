@@ -5,7 +5,14 @@ npm install ng-classy
 ```
 
 - Warning: this module is extremely opinionated. That's why it's useful.
-- Scroll down for API docs.
+
+(API docs are at the bottom)
+
+### Development
+
+- `npm install`
+- `npm test`
+- `npm run test-watch`
 
 ### Purpose
 
@@ -87,11 +94,6 @@ export class MyComponent {
 
 Goodbye, boilterplate. Hello, ease.
 
-### Development
-
-- `npm install`
-- `npm test`
-- `npm run test-watch`
 
 ### API
 
