@@ -110,7 +110,7 @@ import classy from 'ng-classy';
 classy.app;
 
 /*
- * # @Classy.service()
+ * # @classy.Service()
  * Registers 'MyService' as an injectable service on your app.
  */
 @classy.Service()
