@@ -86,9 +86,11 @@ import {Component, State} from 'ng-classy';
   url: 'url/:param'
 })
 export class MyComponent {
-  // Creates a <my-component> element directive, using the class as a controller and `controllerAs: 'vm'`
+  // Creates a <my-component> element directive, using the class as a 
+  // controller and `controllerAs: 'vm'`
 
-  // Additionally creates a state whose template is '<my-component param="$stateParams.param"></my-component>'.
+  // Additionally creates a state whose template is 
+  // '<my-component param="$stateParams.param"></my-component>'.
 }
 ```
 
