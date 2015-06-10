@@ -32,7 +32,8 @@ export default angular.module('myComponent', [
   directiveTwoModule.name,
   serviceOneModule.name,
 ])
-  // Make a state that maps to our component in a decoupled manner, so our component is reusable outside the state.
+  // Make a state that maps to our component in a decoupled manner, 
+  // so our component is reusable outside the state.
   // Much boilerplate.
   .config(($stateProvider) => {
     $stateProvider.state('myComponentState', {
