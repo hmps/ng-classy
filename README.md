@@ -14,7 +14,7 @@ An opinionated cure to angular 1's ES6 problems.
 - `npm test`
 - `npm run test-watch`
 
-### Purpose
+## Purpose
 
 Use ES6 classes. Ditch angular 1's modules.
 
@@ -96,7 +96,7 @@ export class MyComponent {
 Goodbye, boilerplate. Hello, ease.
 
 
-### API
+## API and Usage
 
 You need to understand ES6 imports and ES6 decorators to understand this. Use Google if you don't.
 
