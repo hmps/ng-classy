@@ -98,7 +98,7 @@ Goodbye, boilerplate. Hello, ease.
 
 ## API and Usage
 
-You need to understand ES6 imports and ES6 decorators to understand this. Use Google if you don't.
+You need to understand ES6 imports and ES6 decorators to understand this.
 
 To use ng-classy in your app, do the following:
 
