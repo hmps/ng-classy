@@ -104,14 +104,15 @@ To use ng-classy in your app, do the following:
 
 ```js
 import classy from 'ng-classy';
-
 // Assuming `ng-app="myApp"` exists somewhere...
 angular.module('myApp', [
   classy.app.name
 ]);
 ```
 
-Then use ng-classy everywhere with the following API:
+For tests, just import your app's code and use `angular.mock.module(class.app.name)`. Check [test/index.spec.js](https://github.com/eaze/ng-classy/blob/master/test/index.spec.js).
+
+Then for your app, just use ng-classy everywhere with the following API:
 
 ```js
 import classy from 'ng-classy';
