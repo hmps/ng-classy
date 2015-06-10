@@ -110,7 +110,7 @@ angular.module('myApp', [
 ]);
 ```
 
-For tests, just import your app's code and use `angular.mock.module(class.app.name)`. Check [test/index.spec.js](https://github.com/eaze/ng-classy/blob/master/test/index.spec.js).
+For tests, just import your app's code and use `angular.mock.module(classy.app.name)`. Check [test/index.spec.js](https://github.com/eaze/ng-classy/blob/master/test/index.spec.js).
 
 Then for your app, just use ng-classy everywhere with the following API:
 
