@@ -62,13 +62,11 @@ class MyComponent {
 }
 ```
 
-Let's fix this situation.
+Let's fix this situation. 
 
-We don't care about angular module dependencies. ES6 handles dependencies for us.
-
-Let's just make everything that's imported be put onto one global angular module.  Only what we explicitly load via ES6 imports will be loaded by Angular.
-
-Lastly, we almost always want our states with some parameters to map to a component with attribute bindings. So let's make that built-in.
+- We don't care about angular module dependencies. ES6 handles dependencies for us.
+- Let's just make everything that's imported be put onto one global angular module.  Only what we explicitly load via ES6 imports will be loaded by Angular.
+- Lastly, we almost always want our states with some parameters to map to a component with attribute bindings. So let's make that built-in.
 
 ```js
 // Importing these causes them to implicitly be defined as dependencies on our angular module.
