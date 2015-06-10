@@ -2,8 +2,8 @@
   "name": "ng-classy",
   "version": "0.0.1",
   "scripts": {
-    "test": "karma start",
-    "test-watch": "karma start --single-run=false"
+    "test": "./node_modules/.bin/karma start",
+    "test-watch": "./node_modules/.bin/karma start --single-run=false"
   },
   "main": "lib/index.js",
   "devDependencies": {
