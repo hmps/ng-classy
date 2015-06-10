@@ -18,7 +18,7 @@ An opinionated cure to angular 1's ES6 problems.
 
 Use ES6 classes. Ditch angular 1's modules.
 
-This is the best angular 1 + ES6 pattern you can find, but it's full of boilerplate:
+Why? Because the following is the best angular 1 + ES6 pattern you can find, but it's full of boilerplate:
 
 ```js
 //These all `export default` angular modules
