@@ -4,7 +4,7 @@
 npm install ng-classy
 ```
 
-- Warning: this module is extremely opinionated. That's why it's useful.
+This module is extremely opinionated, and that's why it's useful.
 
 (API docs are at the bottom)
 
