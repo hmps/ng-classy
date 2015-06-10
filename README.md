@@ -4,7 +4,7 @@
 npm install ng-classy
 ```
 
-This module is extremely opinionated, and that's why it's useful.
+An opinionated cure to angular 1's ES6 problems.
 
 (API docs are at the bottom)
 
