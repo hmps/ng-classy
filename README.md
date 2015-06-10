@@ -98,7 +98,20 @@ Goodbye, boilerplate. Hello, ease.
 
 ### API
 
-You'll understand all of this if you understand ES6 imports and ES6 decorators. Use Google if you don't.
+You need to understand ES6 imports and ES6 decorators to understand this. Use Google if you don't.
+
+To use ng-classy in your app, do the following:
+
+```js
+import classy from 'ng-classy';
+
+// Assuming `ng-app="myApp"` exists somewhere...
+angular.module('myApp', [
+  classy.app.name
+]);
+```
+
+Then use ng-classy everywhere with the following API:
 
 ```js
 import classy from 'ng-classy';
