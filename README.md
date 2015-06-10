@@ -16,7 +16,7 @@ An opinionated cure to angular 1's ES6 problems.
 
 ## Purpose
 
-Use ES6 classes. Ditch angular 1's modules.
+Use ES6 classes and ES6+ decorators. Ditch angular 1's modules.
 
 Why? Because the following is the best angular 1 + ES6 pattern you can find, but it's full of boilerplate:
 
