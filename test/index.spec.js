@@ -21,7 +21,7 @@ describe('ngClassy', () => {
 
   it('Component', () => {
     @classy.Component({
-      template: 'the color is {{color}}'
+      template: '<div>the color is {{color}}</div>'
     })
     class MyComponent {
       constructor($scope) {
@@ -37,7 +37,7 @@ describe('ngClassy', () => {
 
   it('Component with State should pass stateParams to component attributes', () => {
     @classy.Component({
-      template: 'param1={{vm.param1}}, param2={{vm.param2}}',
+      template: '<div>param1={{vm.param1}}, param2={{vm.param2}}</div>',
       bind: {
         param1: '=',
         param2: '='
@@ -57,6 +57,7 @@ describe('ngClassy', () => {
         param2: 'valueTwo'
       });
       $rootScope.$apply();
+      console.log(app);
       expect(app.find('super-component').length).to.equal(1);
       expect(app.find('super-component').text()).to.equal('param1=valueOne, param2=valueTwo');
     });
