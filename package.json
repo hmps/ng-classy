@@ -20,5 +20,18 @@
   "dependencies": {
     "angular": "1.4.x",
     "angular-ui-router": "0.2.15"
+  },
+  "jspm": {
+    "directories": {},
+    "configFile": "jspm.conf.js",
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.1",
+      "angular-ui-router": "github:angular-ui/ui-router@^0.2.15"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
   }
 }
